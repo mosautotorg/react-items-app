@@ -1,0 +1,14 @@
+button {
+	cursor: pointer
+}
+
+button:disabled {
+	cursor: default;
+}
+
+button {
+	border: none;
+	background: rgba(238,174,202,1);
+	font-size: $small;
+	border-left: 3px solid white;
+}

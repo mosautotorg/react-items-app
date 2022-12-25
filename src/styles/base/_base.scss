@@ -1,0 +1,17 @@
+body {
+	margin: 0;
+	font-size: $medium;
+	font-weight: 500;
+	font-family: KrasiviyFont;
+	background: linear-gradient(90deg, rgba(233,218,148,1) 31%, rgba(238,174,202,1) 100%);
+}
+
+@media (max-width: $breakpoint){
+	.line {
+		width: inherit;
+	}
+
+	.input_add {
+		width:100%;
+	}
+}

@@ -1,0 +1,26 @@
+.input_add {
+	font-family: inherit;
+	font-size: $medium;
+	color: white;
+	width: 100%;
+	height: 100%;
+	border: none;
+	background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+	padding: 0;
+}
+
+form {
+	height: 40px;
+	padding: 0px;
+	margin-top: $medium;
+	border: 3px solid white;
+	width: 80%
+}
+
+.input_add::placeholder {
+	color: white;
+}
+
+.input_add:focus {
+	outline: 0;
+}
